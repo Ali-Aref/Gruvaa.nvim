@@ -1,4 +1,4 @@
--- gruvbox palette
+-- gruvaa palette
 return {
   dark0_hard = "#1d2021",
   dark0 = "#282828",

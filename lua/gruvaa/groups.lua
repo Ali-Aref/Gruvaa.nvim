@@ -93,8 +93,8 @@ local function set_terminal_colors(colors)
 end
 
 groups.setup = function()
-  local config = require("gruvbox").config
-  local palette = require("gruvbox.palette")
+  local config = require("gruvaa").config
+  local palette = require("gruvaa.palette")
   local colors = get_base_colors(palette, config.contrast)
 
   set_terminal_colors(colors)
